@@ -1,0 +1,11 @@
+﻿@model string
+
+
+@Html.Raw(@Model)
+@section Scripts{
+    <script>
+        $(function () {
+            $("#punchout_form").submit();
+        })
+    </script>
+}

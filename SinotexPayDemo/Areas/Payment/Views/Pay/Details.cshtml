@@ -1,0 +1,49 @@
+﻿@using SinotexPayDemo.Models;
+@model OrderModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+@using (Html.BeginForm("Pay", "Pay", FormMethod.Post))
+{
+    <table>
+        <tr>
+            <td>
+                商品名：
+            </td>
+            <td>
+                @Html.EditorFor(d => d.OrderName)
+            </td>
+        </tr>
+        <tr>
+            <td>商品编号：</td>
+            <td>
+                @Html.EditorFor(d => d.OrderNumber)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                价格：
+            </td>
+            <td>
+                @Html.EditorFor(d => d.Price)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                购买数量：
+            </td>
+            <td>
+                @Html.EditorFor(d => d.GoodsCount)
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <input type="submit" value="--买--" />
+}
+

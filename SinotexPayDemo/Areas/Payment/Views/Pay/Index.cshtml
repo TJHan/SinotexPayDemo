@@ -1,0 +1,28 @@
+﻿@using SinotexPayDemo.Models;
+@model List<OrderModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<table style="width:100%;">
+    <tr>
+        <td width="300px">商品名</td>
+        <td width="400px">商品号</td>
+        <td>价格</td>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.OrderName</td>
+            <td>@item.OrderNumber</td>
+            <td>@item.Price</td>
+            <td>
+                @Html.ActionLink("买买买", "Details", new { orderName = @item.OrderName, orderNo = @item.OrderNumber, orderPrice = @item.Price }, new { target = "_blank" })
+
+            </td>
+        </tr>
+    }
+</table>

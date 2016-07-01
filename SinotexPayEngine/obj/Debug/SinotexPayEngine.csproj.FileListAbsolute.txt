@@ -1,0 +1,7 @@
+D:\Project\Test\SinotexPayDemo\SinotexPayEngine\bin\Debug\SinotexPayEngine.dll
+D:\Project\Test\SinotexPayDemo\SinotexPayEngine\bin\Debug\SinotexPayEngine.pdb
+D:\Project\Test\SinotexPayDemo\SinotexPayEngine\bin\Debug\Newtonsoft.Json.dll
+D:\Project\Test\SinotexPayDemo\SinotexPayEngine\bin\Debug\Newtonsoft.Json.xml
+D:\Project\Test\SinotexPayDemo\SinotexPayEngine\obj\Debug\SinotexPayEngine.dll
+D:\Project\Test\SinotexPayDemo\SinotexPayEngine\obj\Debug\SinotexPayEngine.pdb
+D:\Project\Test\SinotexPayDemo\SinotexPayEngine\obj\Debug\SinotexPayEngine.csprojResolveAssemblyReference.cache
